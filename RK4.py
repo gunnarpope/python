@@ -1,4 +1,4 @@
-# Use Runga-Kutta 45 to numerically solve the differential equation of the voltage discharge from a simple RC circuit
+# Use Runge-Kutta 45 to numerically solve the differential equation of the voltage discharge from a simple RC circuit
 # by gunnar pope
 # 01/24/19
 # Usage: $ python RK4.py
