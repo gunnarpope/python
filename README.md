@@ -3,4 +3,6 @@ Apply Runga-Kutta 45 (RK45) to solve the differential equation for a RC voltage 
 Usage:
 
     $ python RK4.py
+
+![ode-solution](ode-solution.png)
  
