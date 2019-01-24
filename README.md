@@ -9,7 +9,7 @@ where R is the resistance in Ohms and C is the capacitance in Farads and t is in
 
 The time-domain solution shown above is the solution to the following equation that governs the RC circuit behavior.
 
-V'(t) = - 1/RC*V
+    V'(t) = - 1/RC*V
 
 where V'(t) is the derivative of voltage, V, over time. This is an ordinary differential equation which can be solved using numerical methods. In this example, we will use the Runge-Kutta method to numerically solve the ODE.
 
@@ -62,11 +62,10 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
+```
 
 Usage:
 
     $ python RK4.py
 
 ![ode-solution](ode-solution.png)
-
-```
