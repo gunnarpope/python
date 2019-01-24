@@ -3,7 +3,7 @@
 # 01/24/19
 # Usage: $ python RK4.py
 
-# see https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html
+# references: https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html
 
 from scipy.integrate import solve_ivp
 
@@ -22,7 +22,7 @@ t_end   = 10
 # initial conditions (this could be a vector too [a, b, c, etc]
 ics = [2] #volts
 
-
+# apply RK45 to numerically solve the differential equation, given the initial conditions and time span.
 sol = solve_ivp(f, [t_start,t_end],ics, method='RK45')
 print(sol.t)
 print()
@@ -31,12 +31,11 @@ print(sol.y)
 import matplotlib.pyplot as plt
 import numpy as np
 
+# compare the numerical solution to the solution in the time-domain.
 t = np.linspace(t_start,t_end,100)
 vout = ics*np.exp(-1/(R*C)*t)
 
-plt.plot(t,vout, label='exact solution')
-
-
+plt.plot(t,vout, label='Exact Solution')
 plt.plot(sol.t, sol.y[0], label='RK4 Solution')
 plt.title("A Numerical Methods Example Using RK4 In Python")
 plt.xlabel("Time (s)")
