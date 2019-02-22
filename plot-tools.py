@@ -29,5 +29,6 @@ if __name__ == '__main__':
     x = range(10)  
     y = [ 2**c for c in x]
 
+    plot(x,y)
     plot(x,y, xlabel='time (min)', ylabel='height (m)', title='Time vs Height')
     

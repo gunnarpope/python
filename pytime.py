@@ -7,15 +7,48 @@
 # Liscense: MIT
 #-------------------------------------------------
 
-from datetime import datetime, date
+from datetime import *
+import numpy as np
 import time
+
+def getRealTimeArray(starttime, stepsize,length):
+    """
+    INPUT:
+        stattime = a python datetime object (ie, datetime.now() )
+        stepsize = in seconds (ie, stepsize= 0.5sec)
+        length   = the desired length of output array
+    OUTPUT:
+        mytime = datetime(2019,2,20)
+        timearray = getRealTimeArray(mytime, 500000,5)
+        print('Print out time array')
+        for t in timearray:
+            t = t.__format__("%Y-%m-%dT%H-%M-%S.%f")
+            print(t)
+        2019-02-20T00-00-00.000000
+        2019-02-20T00-00-00.500000
+        2019-02-20T00-00-01.000000
+        2019-02-20T00-00-01.500000
+        2019-02-20T00-00-02.000000
+    """
+    rt_array = [starttime + timedelta(0,0,N*stepsize*1e6) for N in range(length) ]
+    return rt_array
+
+def plotRealTimeVsData(datetime_array,data):
+    """Input: a datetime object in format '2017-03-29T12:55:59.500000'"""
+    plt.xticks( rotation=25 )
+    ax=plt.gca()
+    xfmt = md.DateFormatter('%Y-%m-%d %H:%M:%S%f')
+    ax.xaxis.set_major_formatter(xfmt)
+
+    plt.plot(datetime_array,data)
+    plt.show()
 
 
 def getDateTimeStamp(datestamp, timestamp):
     """Use this function after the upload to convert timestamps to iso format
        Input
-           - datestamp = 05252017 for May 25th, 2017
-           - timestamp: a string of the format '04082017' for 'DOW:HH:MM:SS'
+           - datestamp = '05252017' for May 25th, 2017
+           - timestamp = '04081013' for 'DOW:HH:MM:SS'
        Output
            - a datetime object representing the date to the 0.5 second resolution
     """
@@ -39,7 +72,6 @@ def getDateTimeStamp(datestamp, timestamp):
 
     dt = datetime.combine(dt_day, t)
     return (dt)
-
 
 def getNowTime():
     time = datetime.now()
@@ -103,3 +135,9 @@ if __name__ == '__main__':
     print( getSecond())
     print( getNowTimeMicroSec())
     print( getNowTime())
+    mytime = datetime(2019,2,20)
+    timearray = getRealTimeArray(mytime, 0.5,5)
+    print('Print out time array')
+    for t in timearray:
+        t = t.__format__("%Y-%m-%dT%H-%M-%S.%f")
+        print(t)
