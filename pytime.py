@@ -120,7 +120,8 @@ def getMicrosecond():
     time = datetime.now()
     return time.microsecond
 
-
+def getDayOfYear():
+ 		return datetime.now().timetuple().tm_yday
 
 
 

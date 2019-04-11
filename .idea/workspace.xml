@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f39290c-fab1-4ff5-b61b-1f4615e588d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../eda18s/code/.ipynb_checkpoints/eda18s_resistor_test-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../eda18s/code/.ipynb_checkpoints/eda18s_resistor_test-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eda18s/code/.ipynb_checkpoints/plot-data-amulet-pilot-2019-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../eda18s/code/.ipynb_checkpoints/plot-data-amulet-pilot-2019-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eda18s/code/actual-vs-measured-conduct-100us.png" beforeDir="false" afterPath="$PROJECT_DIR$/../eda18s/code/actual-vs-measured-conduct-100us.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eda18s/code/eda18s_resistor_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../eda18s/code/eda18s_resistor_test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eda18s/code/plot-data-amulet-pilot-2019.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../eda18s/code/plot-data-amulet-pilot-2019.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../eda18s/eda_timer/eda_timer" beforeDir="false" afterPath="$PROJECT_DIR$/../eda18s/eda_timer/eda_timer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot-tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot-tools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,42 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_download_data.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../eda18s/code/scripts/eda19w_plot_field_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../eda18s/scripts/gsrREV10_Decompression_FINAL.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2910">
-              <caret line="202" column="30" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_plot_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="749">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
-                <element signature="e#38#48#0" expanded="true" />
-                <marker date="1539978019294" expanded="true" signature="555:928" ph="..." />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plot-tools.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../eda18s/code/scripts/eda19w.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="360">
+              <caret line="287" column="17" selection-start-line="287" selection-start-column="17" selection-end-line="287" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -98,42 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1801@lab.d01.p01.10102018.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1810@l.d10.p10.10102018.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_serialcoms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="e#46#59#0" expanded="true" />
-                <marker date="1539960908034" expanded="true" signature="3243:3825" ph="..." />
-                <marker date="1539960908034" expanded="true" signature="3855:3864" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="585">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -149,7 +91,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../eda18s" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,6 +117,8 @@
         <option value="$USER_HOME$/eos/contracts/eoscryptosys/pycrypto.py" />
         <option value="$PROJECT_DIR$/../eda18s/code/ode-solver.py" />
         <option value="$PROJECT_DIR$/plot-tools.py" />
+        <option value="$PROJECT_DIR$/../eda18s/code/scripts/eda19w.py" />
+        <option value="$PROJECT_DIR$/../eda18s/code/scripts/eda19w_plot_field_data.py" />
       </list>
     </option>
   </component>
@@ -190,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,14 +151,20 @@
               <item name="eda18s" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eda18s" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -241,8 +192,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot-tools">
-    <configuration name="GSR_Decompression_FINAL" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.eda19w_plot_field_data">
+    <configuration name="eda19w_plot_field_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="eda_18s" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,12 +201,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../eda18s/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../eda18s/code/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../eda18s/scripts/gsrREV10_Decompression_FINAL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../eda18s/code/scripts/eda19w_plot_field_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,19 +304,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.GSR_Decompression_FINAL" />
       <item itemvalue="Python.eda_plot_data" />
       <item itemvalue="Python.pycrypto" />
       <item itemvalue="Python.ode-solver" />
       <item itemvalue="Python.plot-tools" />
+      <item itemvalue="Python.eda19w_plot_field_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.eda19w_plot_field_data" />
         <item itemvalue="Python.plot-tools" />
         <item itemvalue="Python.ode-solver" />
         <item itemvalue="Python.pycrypto" />
         <item itemvalue="Python.eda_plot_data" />
-        <item itemvalue="Python.GSR_Decompression_FINAL" />
       </list>
     </recent_temporary>
   </component>
@@ -381,6 +332,7 @@
       <updated>1538355279833</updated>
       <workItem from="1548347190358" duration="3094000" />
       <workItem from="1549562208085" duration="1249000" />
+      <workItem from="1554313980898" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="Print datetime in multiple formats">
       <created>1538357255804</created>
@@ -533,12 +485,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4343000" />
+    <option name="totallyTimeSpent" value="7633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29589778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29993275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -552,12 +505,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34986594" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34893048" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32952252" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.49630126" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -612,6 +565,9 @@
     <MESSAGE value=" updating conversion function for computing G to account for fixed resistor. Notice that Gskin for compressed data needs to be mult by 100 - not for raw lab data!" />
     <option name="LAST_COMMIT_MESSAGE" value=" updating conversion function for computing G to account for fixed resistor. Notice that Gskin for compressed data needs to be mult by 100 - not for raw lab data!" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$eda19w_plot_field_data.coverage" NAME="eda19w_plot_field_data Coverage Results" MODIFIED="1554321067248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../eda18s/code/scripts" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../eda18s/data/eda_iona_birth.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -620,27 +576,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_start_field_recording.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_start_lab_recording.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/python/pytime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_start_field_recording.py" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_start_lab_recording.py" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/python/pytime.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -655,30 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_set_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1801@lab.d02.p01.10022018.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1801@lab.d01.p01.10022018.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/uIONA@lab.d01.p01.10022018.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="60745" selection-start-line="60745" selection-end-line="60745" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_set_time.py" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1801@lab.d02.p01.10022018.txt" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1801@lab.d01.p01.10022018.txt" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/uIONA@lab.d01.p01.10022018.txt" />
     <entry file="file://$PROJECT_DIR$/../eda18s/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -699,17 +617,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_download_data.py">
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_download_data.py" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/gsrREV10_Decompression_FINAL.py" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1801@lab.d01.p01.10102018.txt" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1810@l.d10.p10.10102018.txt" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_serialcoms.py" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_plot_data.py" />
+    <entry file="file://$PROJECT_DIR$/plot-tools.py" />
+    <entry file="file://$PROJECT_DIR$/../eda18s/code/ode-solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/gsrREV10_Decompression_FINAL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2910">
-          <caret line="202" column="30" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -723,61 +641,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1801@lab.d01.p01.10102018.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/data/u1810@l.d10.p10.10102018.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_serialcoms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#46#59#0" expanded="true" />
-            <marker date="1539960908034" expanded="true" signature="3243:3825" ph="..." />
-            <marker date="1539960908034" expanded="true" signature="3855:3864" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="585">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/code/ode-solver.py">
+    <entry file="file://$PROJECT_DIR$/../eda18s/code/scripts/eda19w.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="360">
+          <caret line="287" column="17" selection-start-line="287" selection-start-column="17" selection-end-line="287" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../eda18s/scripts/eda_plot_data.py">
+    <entry file="file://$PROJECT_DIR$/../eda18s/code/scripts/eda19w_plot_field_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="749">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
-            <element signature="e#38#48#0" expanded="true" />
-            <marker date="1539978019294" expanded="true" signature="555:928" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot-tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
