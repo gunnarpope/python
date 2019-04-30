@@ -13,6 +13,8 @@ fig, ax = plt.subplots()
 xdata, ydata = [], []
 # ln, = plt.plot([], [], 'ro')
 ln, = plt.plot([], [], 'r', mfc='none')
+plt.xlabel('Time (s)')
+
 
 Vcc  = 3
 tmax = 3
@@ -27,7 +29,7 @@ def init():
     return ln,
 
 def yfunk(t):
-	return Vcc*(1-np.exp(-t))
+    return Vcc*(1-np.exp(-t))
 
 def update(frame):
     xdata.append(frame)
@@ -35,8 +37,9 @@ def update(frame):
     ln.set_data(xdata, ydata)
     return ln,
 
-ani = animation.FuncAnimation(fig, update, frames=np.linspace(0, 3, 50),
-                    init_func=init, blit=True)
+ani = animation.FuncAnimation(fig, update, frames=np.linspace(0, tmax, 25),
+                    init_func=init,interval=50, repeat=False,blit=False)
+# repeat_delay=1000,
 
 # To save the animation, use e.g.
 #
