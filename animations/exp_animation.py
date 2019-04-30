@@ -11,7 +11,9 @@ import matplotlib.animation as animation
 
 fig, ax = plt.subplots()
 xdata, ydata = [], []
-ln, = plt.plot([], [], 'ro')
+# ln, = plt.plot([], [], 'ro')
+ln, = plt.plot([], [], 'r', mfc='none')
+
 Vcc  = 3
 tmax = 3
 tmin = 0
@@ -25,7 +27,7 @@ def init():
     return ln,
 
 def yfunk(t):
-	return Vcc*np.exp(-t)
+	return Vcc*(1-np.exp(-t))
 
 def update(frame):
     xdata.append(frame)
@@ -33,7 +35,7 @@ def update(frame):
     ln.set_data(xdata, ydata)
     return ln,
 
-ani = animation.FuncAnimation(fig, update, frames=np.linspace(0, 2*np.pi, 50),
+ani = animation.FuncAnimation(fig, update, frames=np.linspace(0, 3, 50),
                     init_func=init, blit=True)
 
 # To save the animation, use e.g.
