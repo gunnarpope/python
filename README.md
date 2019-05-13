@@ -1,3 +1,8 @@
+## Make your plots pretty in python
+
+    $ python pretty_colors_plt.py
+![coolwarm](pretty_colors_plt.png)
+
 ## Solving initial valued problems of ordinary differential equations (ODE's)
 Apply Runge-Kutta 45 (RK45) to solve the differential equation for a RC voltage decay off a capacitor discharging through a resistor.
 
