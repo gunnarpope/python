@@ -5,15 +5,16 @@ app = Flask(__name__)
 def index():
 	return render_template('login.html')
 
-@app.route('/success/<name>')
-def success(name):
-   return 'welcome %s' % name
+@app.route('/success/<name>/<pin>')
+def success(name, pin):
+   return 'welcome %s with pin %s' % (name, pin)
 
 @app.route('/login',methods = ['POST', 'GET'])
 def login():
    if request.method == 'POST':
-      user = request.form['nm']
-      return redirect(url_for('success',name = user))
+      user = request.form['username']
+      pin  = request.form['pin']
+      return redirect(url_for('success',name = user, pin=pin))
    else:
       user = request.args.get('nm')
       return redirect(url_for('success',name = user))
