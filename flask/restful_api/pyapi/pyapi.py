@@ -30,6 +30,7 @@ if __name__ == '__main__':
 
 	print( get_userdata(1))
 	print( set_userdata(3, {'username':'mark','password':'password1234'}))
+	print( get_userdata(3))
 # 
 # 	# api-endpoint 
 # 	URL = "http://127.0.0.1:5000/v1/user/"
